@@ -11,7 +11,6 @@
     <table border="1" >
     <thead>
         <tr>
-            <th>id</th>
             <th>nama</th>
             <th>nim</th>
         </tr>
@@ -20,9 +19,6 @@
 
         <?php foreach($isi as $result): ?>
             <tr>
-                <td>
-                    <?php echo $result->id ?>
-                </td>
                 <td>
                     <?php echo $result->nama ?>
                 </td>

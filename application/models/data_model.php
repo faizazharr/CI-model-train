@@ -10,7 +10,7 @@ class data_model extends CI_Model
 
     public function add()
     {
-        # code...
+        $this->db->insert('kelas', $object);
     }
 }
 
